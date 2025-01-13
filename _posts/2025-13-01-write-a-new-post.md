@@ -226,7 +226,7 @@ image:
 ---
 ```
 
-Lưu ý rằng [`media_subpath`](#url-prefix) cũng có thể được chuyển đến hình ảnh xem trước, tức là khi nó đã được thiết lập, thuộc tính `path` chỉ cần tên tệp hình ảnh.
+Lưu ý rằng [`media_subpath`](#tiền-tố-url) cũng có thể được chuyển đến hình ảnh xem trước, tức là khi nó đã được thiết lập, thuộc tính `path` chỉ cần tên tệp hình ảnh.
 
 Để sử dụng đơn giản, bạn cũng có thể chỉ sử dụng `image` để định nghĩa đường dẫn.
 
@@ -247,7 +247,7 @@ image:
 ---
 ```
 
-> Bạn có thể quan sát LQIP trong hình ảnh xem trước của bài viết "[Văn Bản và Kiểu Chữ](../text-and-typography/)".
+<!-- > Bạn có thể quan sát LQIP trong hình ảnh xem trước của bài viết "[Văn Bản và Kiểu Chữ](../text-and-typography/)". -->
 
 Đối với hình ảnh bình thường:
 
