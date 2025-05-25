@@ -470,7 +470,7 @@ Chúng ta đã cùng nhau khám phá những bước đầu tiên với OpenAI A
 
 ### Bước Tiếp Theo
 
-Trong **bài tiếp theo**, chúng ta sẽ đi sâu vào:
+Trong **bài tiếp theo**, chúng ta sẽ đi sâu vào [Xây Dựng Agent Đầu Tiên: Instructions, Tools và Function Calling](../openai-agents-sdk-part-02-instructions-tools-function-calling/) để tìm hiểu:
 
 🔧 **Tools và Function Calling** - Cách làm cho agents có thể thực hiện actions  
 📊 **Data Integration** - Kết nối với APIs, databases, và external services  
@@ -503,4 +503,4 @@ Trước khi chuyển sang bài tiếp theo, hãy thử:
 
 ---
 
-*Bài viết tiếp theo: **"Xây Dựng Agent Đầu Tiên: Instructions, Tools và Function Calling"** - Chúng ta sẽ tìm hiểu cách làm cho agents thực sự hữu ích bằng cách trang bị tools và khả năng tương tác với thế giới bên ngoài.*
+*Bài viết tiếp theo: [**"Xây Dựng Agent Đầu Tiên: Instructions, Tools và Function Calling"**](../openai-agents-sdk-part-02-instructions-tools-function-calling/) - Chúng ta sẽ tìm hiểu cách làm cho agents thực sự hữu ích bằng cách trang bị tools và khả năng tương tác với thế giới bên ngoài.*

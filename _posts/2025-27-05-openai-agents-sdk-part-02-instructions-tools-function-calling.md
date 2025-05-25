@@ -877,7 +877,7 @@ if __name__ == "__main__":
 
 ## Tổng Kết và Best Practices
 
-### Key Takeaways
+### Những Điều Cần Ghi Nhớ
 
 ✅ **Instructions là foundation** - Đầu tư thời gian viết instructions chi tiết và rõ ràng  
 ✅ **Tools mở rộng capabilities** - Function tools cho phép agents tương tác với thế giới thực  
@@ -888,24 +888,24 @@ if __name__ == "__main__":
 ### Production Checklist
 
 🔍 **Instructions Quality:**
-- [ ] Vai trò và responsibilities rõ ràng
-- [ ] Communication style được định nghĩa
-- [ ] Constraints và limitations được nêu
-- [ ] Quality standards được thiết lập
+- [ ] Vai trò và trách nhiệm được định nghĩa rõ ràng
+- [ ] Phong cách giao tiếp được thiết lập
+- [ ] Các giới hạn và hạn chế được nêu rõ
+- [ ] Tiêu chuẩn chất lượng được xác định
 
 🛠️ **Tools Development:**
 - [ ] Function signatures có type hints đầy đủ
 - [ ] Docstrings mô tả parameters và return values
-- [ ] Error handling comprehensive
+- [ ] Error handling toàn diện
 - [ ] Input validation và sanitization
-- [ ] Performance optimization cho tools thường dùng
+- [ ] Tối ưu hiệu suất cho tools thường dùng
 
 ### Bước Tiếp Theo
 
 Trong **bài tiếp theo**, chúng ta sẽ khám phá:
 
 🎯 **Context Management** - Quản lý data và dependencies hiệu quả  
-📊 **State Management** - Duy trì state across conversations  
+📊 **State Management** - Duy trì state xuyên suốt conversations  
 🔄 **Data Flow Patterns** - Best practices cho data handling  
 
 ### Thử Thách Cho Bạn
@@ -918,4 +918,4 @@ Trước khi chuyển bài tiếp theo:
 
 ---
 
-*Bài tiếp theo: **"Context Management: Quản Lý Dữ Liệu và Dependencies Trong Agents"** - Chúng ta sẽ học cách quản lý state, data flow, và dependencies để xây dựng agents thực sự thông minh.*
+*Bài tiếp theo: [**"Context Management: Quản Lý Dữ Liệu và Dependencies Trong Agents"**](../openai-agents-sdk-part-03-context-management-data-dependencies/) - Chúng ta sẽ học cách quản lý state, data flow, và dependencies để xây dựng agents thực sự thông minh.*

@@ -1046,71 +1046,68 @@ if __name__ == "__main__":
     asyncio.run(demo_hierarchical_context())
 ```
 
-## Tổng Kết và Production Guidelines
+**## Tổng Kết và Hướng Dẫn Triển Khai**
 
-### Key Takeaways
+### Những điểm cần ghi nhớ
 
-✅ **Phân biệt Local vs LLM Context** - Hiểu rõ dữ liệu nào agent có thể "thấy"  
-✅ **Dependency Injection** - Quản lý services và resources hiệu quả  
-✅ **Session Management** - Duy trì state across conversations  
-✅ **Strategic Context Injection** - Cung cấp đúng thông tin đúng lúc  
-✅ **Hierarchical Context** - Quản lý context ở multiple levels  
-
-### Production Best Practices
-
-🔒 **Security & Privacy:**
-- Không bao giờ pass sensitive data (API keys, passwords) vào LLM context
-- Sanitize user input trước khi store trong context
-- Implement proper access controls cho context data
-- Log context access cho audit trails
-
-⚡ **Performance:**
-- Cache frequently accessed context data
-- Implement context expiration và cleanup
-- Batch context updates để giảm database calls
-- Monitor context size để tránh token limits
-
-🛡️ **Reliability:**
-- Handle context corruption gracefully
-- Implement fallback mechanisms khi context unavailable
-- Validate context data integrity
-- Provide default values cho missing context
-
-### Context Management Checklist
-
-📋 **Design Phase:**
-- [ ] Xác định context scopes cần thiết
-- [ ] Design context data models
-- [ ] Plan context lifecycle management
-- [ ] Define context access patterns
-
-🔧 **Implementation:**
-- [ ] Implement context providers/services
-- [ ] Create context-aware tools và instructions
-- [ ] Add context validation và error handling
-- [ ] Setup context caching strategies
-
-🧪 **Testing:**
-- [ ] Test context isolation between users/sessions
-- [ ] Verify context persistence và retrieval
-- [ ] Test context expiration và cleanup
-- [ ] Load test với realistic context sizes
-
-### Bước Tiếp Theo
-
-Trong **bài tiếp theo**, chúng ta sẽ khám phá:
-
-🤝 **Handoffs** - Orchestrating multiple specialized agents  
-🔄 **Multi-Agent Workflows** - Coordination patterns và best practices  
-📊 **Agent Communication** - Data flow between agents  
-
-### Thử Thách Cho Bạn
-
-1. **Implement conversation memory** cho existing agent của bạn
-2. **Create layered context system** cho domain-specific use case
-3. **Build session manager** với persistence và expiration
-4. **Experiment với different context injection strategies**
+* **Phân biệt Local vs. LLM Context**: Hiểu rõ dữ liệu nào agent “nhìn thấy” và dữ liệu nào chỉ dùng nội bộ.
+* **Dependency Injection**: Quản lý các service, kết nối và tài nguyên một cách có tổ chức.
+* **Session Management**: Giữ trạng thái xuyên suốt cuộc trò chuyện, đảm bảo agent nhớ được lịch sử.
+* **Strategic Context Injection**: Chỉ bơm thông tin phù hợp vào LLM khi thật sự cần.
+* **Hierarchical Context**: Xây dựng ngữ cảnh theo nhiều tầng (global, session, thread, turn) để quản lý linh hoạt.
 
 ---
 
-*Bài tiếp theo: **"Handoffs: Orchestrating Multiple Agents như một Dàn Nhạc"** - Chúng ta sẽ học cách các agents phối hợp và ủy quyền cho nhau để giải quyết những tác vụ phức tạp.*
+### Kinh nghiệm thực tiễn
+
+1. **Bảo mật & Quyền riêng tư**
+
+   * Không bao giờ đưa API key, mật khẩu vào prompt gửi đến LLM.
+   * Luôn sanitize đầu vào trước khi lưu trữ.
+   * Áp dụng kiểm soát truy cập và ghi lại log cho mọi thao tác với context.
+
+2. **Hiệu năng**
+
+   * Cache dữ liệu context được truy vấn thường xuyên.
+   * Thiết lập timeout/expiration và cơ chế dọn dẹp context.
+   * Gom nhóm cập nhật để giảm số lần gọi database.
+   * Giám sát độ lớn của context để tránh chạm giới hạn token.
+
+3. **Độ tin cậy**
+
+   * Bắt lỗi và fallback khi context bị hỏng hoặc thiếu.
+   * Luôn kiểm tra tính toàn vẹn của dữ liệu context.
+   * Cung cấp giá trị mặc định cho các thông tin chưa có.
+
+---
+
+### Danh sách kiểm tra trước khi triển khai
+
+* [ ] Xác định rõ các scope context cần dùng (global, session, thread, turn)
+* [ ] Thiết kế mô hình dữ liệu context phù hợp
+* [ ] Quy định lifecycle và cơ chế cleanup cho mỗi scope
+* [ ] Định nghĩa cách truy cập, cập nhật và inject context vào LLM
+* [ ] Viết tests cho isolation, persistence, expiration và hiệu suất của context
+
+---
+
+### Bước tiếp theo
+
+Trong bài kế tiếp, chúng ta sẽ cùng khám phá:
+
+* **Handoffs** – Cách điều phối nhiều agent chuyên biệt phối hợp hiệu quả
+* **Multi-Agent Workflows** – Các pattern phối hợp và best practices
+* **Giao tiếp giữa các agent** – Xây dựng luồng dữ liệu và thông điệp rõ ràng
+
+---
+
+### Thử thách cho bạn
+
+1. Triển khai cơ chế **ghi nhớ cuộc trò chuyện** cho agent hiện có.
+2. Xây dựng hệ thống **layered context** cho một trường hợp cụ thể.
+3. Tạo **session manager** với tính năng lưu trữ và tự động hết hạn.
+4. Thử nghiệm nhiều chiến lược **inject context** và so sánh hiệu quả.
+
+---
+
+*Bài tiếp theo: [**"Handoffs: Orchestrating Multiple Agents như một Dàn Nhạc"**](../openai-agents-sdk-part-04-handoffs-multi-agent-orchestration/) - Chúng ta sẽ học cách các agents phối hợp và ủy quyền cho nhau để giải quyết những tác vụ phức tạp.*
