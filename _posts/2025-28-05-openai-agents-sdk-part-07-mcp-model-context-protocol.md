@@ -1,7 +1,7 @@
 ---
 title: "Model Context Protocol (MCP): Extending Agent Capabilities"
 date: 2025-05-24 09:00:00 +0700
-categories: [AI, OpenAI, MCP]
+categories: [AI, OpenAI SDK, MCP]
 tags: [openai, agents, mcp, protocols, extensibility]
 author: toantranct
 description: Hướng dẫn chi tiết về Model Context Protocol (MCP) trong OpenAI Agents SDK. Từ cơ bản đến nâng cao - kết nối agents với filesystem, databases và enterprise systems.

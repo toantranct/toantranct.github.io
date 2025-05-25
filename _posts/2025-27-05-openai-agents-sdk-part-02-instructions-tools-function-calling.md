@@ -1,7 +1,7 @@
 ---
 title: "Xây Dựng Agent Đầu Tiên: Instructions, Tools và Function Calling"
 date: 2025-05-21 09:00:00 +0700
-categories: [AI, OpenAI]
+categories: [AI, OpenAI SDK]
 tags: [openai, agents, tools, function-calling, python]
 author: toantranct
 description: Hướng dẫn chi tiết cách viết instructions hiệu quả và tạo function tools cho OpenAI Agents. Từ basic function calling đến advanced tool patterns.

@@ -1,7 +1,7 @@
 ---
 title: "Context Management: Quản Lý Dữ Liệu và Dependencies Trong Agents"
 date: 2025-05-22 09:00:00 +0700
-categories: [AI, OpenAI]
+categories: [AI, OpenAI SDK]
 tags: [openai, agents, context, data-management, dependencies]
 author: toantranct
 description: Hướng dẫn chi tiết về Context Management trong OpenAI Agents SDK. Từ Local Context đến LLM Context, Dynamic Instructions và Dependency Injection patterns.

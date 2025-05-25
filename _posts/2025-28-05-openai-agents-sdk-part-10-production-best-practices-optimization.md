@@ -1,7 +1,7 @@
 ---
 title: "Production Best Practices và Performance Optimization"
 date: 2025-05-24 09:00:00 +0700
-categories: [AI, OpenAI]
+categories: [AI, OpenAI SDK]
 tags: [openai, agents, production, performance, optimization, best-practices]
 author: toantranct
 description: Hướng dẫn toàn diện về triển khai OpenAI Agents trong môi trường production. Từ performance optimization, scaling strategies đến cost management và security.

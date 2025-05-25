@@ -1,7 +1,7 @@
 ---
 title: "Guardrails: Bảo Vệ và Kiểm Soát Agent Behavior Hiệu Quả"
 date: 2025-05-24 09:00:00 +0700
-categories: [AI, OpenAI]
+categories: [AI, OpenAI SDK]
 tags: [openai, agents, guardrails, security, validation]
 author: toantranct
 description: Hướng dẫn chi tiết về Guardrails trong OpenAI Agents SDK. Từ input validation đến output filtering, xây dựng các lớp bảo vệ cho AI systems trong production.

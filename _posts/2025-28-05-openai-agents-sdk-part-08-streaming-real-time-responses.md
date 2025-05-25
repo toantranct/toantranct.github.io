@@ -1,7 +1,7 @@
 ---
 title: "Streaming và Real-time Responses: Tối Ưu User Experience"
 date: 2025-05-24 09:00:00 +0700
-categories: [AI, OpenAI]
+categories: [AI, OpenAI SDK]
 tags: [openai, agents, streaming, real-time, ux]
 author: toantranct
 description: Hướng dẫn chi tiết về Streaming trong OpenAI Agents SDK. Từ raw response events đến building responsive UIs - tạo trải nghiệm người dùng mượt mà và real-time.

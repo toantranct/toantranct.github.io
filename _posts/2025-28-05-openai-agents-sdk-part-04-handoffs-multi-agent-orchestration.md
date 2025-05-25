@@ -1,7 +1,7 @@
 ---
 title: "Handoffs: Orchestrating Multiple Agents như một Dàn Nhạc"
 date: 2025-05-23 09:00:00 +0700
-categories: [AI, OpenAI]
+categories: [AI, OpenAI SDK]
 tags: [openai, agents, handoffs, multi-agent, orchestration]
 author: toantranct
 description: Hướng dẫn chi tiết về Handoffs trong OpenAI Agents SDK. Từ basic delegation đến advanced multi-agent orchestration patterns với real-world examples.

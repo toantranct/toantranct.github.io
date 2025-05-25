@@ -1,7 +1,7 @@
 ---
 title: "Advanced Tools: Web Search, File Search và Computer Use"
 date: 2025-05-24 09:00:00 +0700
-categories: [AI, OpenAI]
+categories: [AI, OpenAI SDK]
 tags: [openai, agents, tools, web-search, file-search, computer-use]
 author: toantranct
 description: Hướng dẫn chi tiết về Advanced Tools trong OpenAI Agents SDK. Từ Web Search, File Search đến Computer Use - mở rộng khả năng agents với thế giới bên ngoài.

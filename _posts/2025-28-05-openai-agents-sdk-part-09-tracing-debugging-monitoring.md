@@ -1,7 +1,7 @@
 ---
 title: "Tracing và Debugging: Monitoring Agent Performance"
 date: 2025-05-24 09:00:00 +0700
-categories: [AI, OpenAI]
+categories: [AI, OpenAI SDK]
 tags: [openai, agents, tracing, debugging, monitoring, observability]
 author: toantranct
 description: Hướng dẫn chi tiết về Tracing và Debugging trong OpenAI Agents SDK. Từ built-in tracing đến custom processors - giám sát và tối ưu hiệu suất agents trong production.

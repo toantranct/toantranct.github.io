@@ -1,7 +1,7 @@
 ---
 title: "Khởi Đầu với OpenAI Agents SDK: Hello World và Những Điều Cần Biết"
 date: 2025-05-20 09:00:00 +0700
-categories: [AI, OpenAI]
+categories: [AI, OpenAI SDK]
 tags: [openai, agents, sdk, python, ai, getting-started]
 author: toantranct
 description: Hướng dẫn chi tiết cách bắt đầu với OpenAI Agents SDK từ cài đặt đến tạo agent đầu tiên. Tìm hiểu các khái niệm cơ bản và viết code Hello World.
