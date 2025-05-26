@@ -269,7 +269,7 @@ Events → Load Balancer → Server 1 (HashMap + MinHeap)
 - **Expensive** khi cần thêm nhiều servers
 - **Complexity** trong việc merge results
 
-![Horizontally scaling initial solution](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*RszcROBKhk6BwUdeeeA.png)
+![Horizontally scaling initial solution](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*RszcROBKhk6Hg6BwUdeeeA.png)
 
 ## Solution 3: Giải Pháp Hai Phần
 
