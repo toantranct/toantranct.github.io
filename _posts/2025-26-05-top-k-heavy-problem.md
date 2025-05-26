@@ -817,7 +817,8 @@ def setup_monitoring():
 
 ## Trade-offs và Considerations
 
-### Real-time vs Accuracy  
+### Real-time vs Accuracy 
+ 
 | Aspect | Real-time (Count Min Sketch) | Batch (MapReduce) |
 |--------|------------------------------|-------------------|
 | **Latency** | Milliseconds | Minutes to Hours |
